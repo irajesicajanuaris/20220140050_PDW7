@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Desain Web dengan Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        padding-top: 4.5rem;
+        background-color: #1b091f95;
+      }
+      .footer {
+        background-color: #373e45;
+        padding: 20px 0;
+        text-align: center;
+      }
+      .card {
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+      .jumbotron {
+        background-color: #3b1e4195;
+        color: #ffffff;
+      }
+      .ae-img {
+        margin-top: 20px;
+      }
+
+      .card-bg-dark {
+        background-color: #343a40;
+      }
+
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-family: "Arial", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="logoae.jpg"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          <span style="font-size: 1.2em">Aespa</span>
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Selamat Datang di Website Aespa</h1>
+        <p class="lead">
+          Kita akan mencari tahu apa itu AE dan beberapa informasi lainnya loh!
+        </p>
+        <hr class="my-4" />
+        <div class="text-center">
+          <img src="ae.jpg" class="ae-img img-fluid" alt="Gambar" />
+        </div>
+        <p>
+          AE (Artificial Existence) adalah sebuah konsep dalam Aespa yang
+          melibatkan entitas virtual yang diciptakan untuk berinteraksi dengan
+          dunia nyata dan penggemar. AE memiliki kemampuan untuk berkomunikasi
+          dan berinteraksi dengan penggemar melalui berbagai platform,
+          menciptakan pengalaman yang unik dan mendalam bagi penggemar Aespa.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-bg-dark">
+            <img src="ae karina.jpg" class="card-img-top" alt="Gambar 1" />
+            <div class="card-body">
+              <h5 class="card-title text-white">ae-Karina</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-bg-dark">
+            <img src="ae winter.jpg" class="card-img-top" alt="Gambar 2" />
+            <div class="card-body">
+              <h5 class="card-title text-white">ae-Winter</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-bg-dark">
+            <img src="ae ningning5.jpg" class="card-img-top" alt="Gambar 3" />
+            <div class="card-body">
+              <h5 class="card-title text-white">ae-Ningning</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-bg-dark">
+            <img src="ae giselle.jpg" class="card-img-top" alt="Gambar 4" />
+            <div class="card-body">
+              <h5 class="card-title text-white">ae-Giselle</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Aespa</span>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
